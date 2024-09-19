@@ -1,0 +1,33 @@
+/* Font for the titles */
+@font-face {
+    font-family: "GothamMedium";
+    src: url("fonts/GothamMedium.ttf") format("truetype");
+}
+
+/* Font for the paragraphs and the lists */
+@font-face {
+    font-family: "GothamBook";
+    src: url("fonts/GothamBook.ttf") format("truetype");
+}
+
+p, ul, ol {
+    font-family: "GothamBook";
+}
+
+.reveal .slides section h1 {
+    color: #1DB954;
+    font-family: "GothamMedium";
+} 
+
+.reveal .slides section h2 {
+    color: #1DB954;
+    font-family: "GothamMedium";
+} 
+
+.reveal .slides section h3 {
+    font-family: "GothamMedium";
+} 
+
+.reveal .slides section h4 {
+    font-family: "GothamMedium";
+}
